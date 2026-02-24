@@ -1,0 +1,23 @@
+{
+  "name": "ai-cost-auditor-demo-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "remotion bundle",
+    "start": "remotion studio",
+    "render": "remotion render AiCostAuditorDemo out/demo.mp4",
+    "render:gif": "remotion render AiCostAuditorDemo out/demo.gif"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.0",
+    "@remotion/cli": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "typescript": "^5.2.2"
+  }
+}
